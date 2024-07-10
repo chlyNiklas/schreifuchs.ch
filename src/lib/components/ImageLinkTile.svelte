@@ -8,7 +8,7 @@
   export let target = "_self";
 </script>
 
-<div class="hover:invert">
+<div>
   <ImageTile {src}>
     <a {href} {target} class="flex items-center justify-center h-full">
       <slot />
