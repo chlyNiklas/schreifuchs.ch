@@ -1,7 +1,7 @@
 <script>
   import ImageTile from "$lib/components/ImageTile.svelte";
   import Markdown from "$lib/components/Markdown.svelte";
-  import HeadImage from "$lib/images/niklas_bw.webp";
+  import HeadImage from "$lib/images/brief/niklas_bw.webp";
 </script>
 
 <ImageTile src={HeadImage}>
@@ -13,6 +13,6 @@
 </ImageTile>
 <main class="flex items-center justify-center pt-8 bg-black min-h-screen px-12">
   <section class="max-w-screen-md">
-    <Markdown src="Brief.md" />
+    <Markdown src="/Brief.md" />
   </section>
 </main>

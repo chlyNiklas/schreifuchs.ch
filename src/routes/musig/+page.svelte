@@ -13,6 +13,6 @@
 </ImageTile>
 <main class="flex items-center justify-center pt-8 bg-black min-h-screen px-12">
   <section class="max-w-screen-md">
-    <Markdown src="Musig.md" />
+    <Markdown src="/Musig.md" />
   </section>
 </main>
