@@ -29,6 +29,8 @@
     content = [...parsedMarkdown.body.children];
     // content.forEach((element) => console.log(element.nodeName));
   });
+
+  //have to impelment correct relative img path's
 </script>
 
 <div class="markdown">
