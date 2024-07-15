@@ -5,6 +5,7 @@
   import drummachine from "$lib/images/home/drummachine.webp";
   import scouts from "$lib/images/home/scouts.webp";
   import console_image from "$lib/images/home/console.webp";
+  import lauch from "$lib/images/home/lauch.webp";
 </script>
 
 <main>
@@ -23,6 +24,12 @@
   <ImageLinkTile src={mouse} href="/fotos">
     <h2 class="text-3xl font-bold text-white hover:underline text-shadow-lg">
       Fotos
+    </h2>
+  </ImageLinkTile>
+
+  <ImageLinkTile src={lauch} href="/video">
+    <h2 class="text-3xl font-bold text-white hover:underline text-shadow-lg">
+      Videos
     </h2>
   </ImageLinkTile>
 
