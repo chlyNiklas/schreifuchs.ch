@@ -44,6 +44,11 @@
 <style global>
   .markdown {
     color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .markdown h1 {
     font-size: 2rem;
@@ -63,10 +68,13 @@
   }
 
   .markdown img {
-    max-height: 60vh;
+    max-height: 90vh;
   }
 
-  .markdown table, .markdown tr, .markdown th, .markdown td {
+  .markdown table,
+  .markdown tr,
+  .markdown th,
+  .markdown td {
     border-collapse: collapse;
     border: 1px solid;
 
